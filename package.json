@@ -1,0 +1,27 @@
+{
+  "name": "marvel-heroes",
+  "version": "1.0.0",
+  "description": "Get random marvel comics heroes",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piyush-kunal/marvel-heroes.git"
+  },
+  "keywords": [
+    "random",
+    "marvel",
+    "heroes"
+  ],
+  "author": "Piyush Kunal <piyushkunal@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/piyush-kunal/marvel-heroes/issues"
+  },
+  "homepage": "https://github.com/piyush-kunal/marvel-heroes#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
