@@ -1,6 +1,6 @@
 var uniqueRandomArray = require('unique-random-array');
 var marvelHeroNames = require('./marvelHeroesNames.json');
-var getRandomItem = uniqueRandomArray(marvelHeroNames)
+var getRandomItem = uniqueRandomArray(marvelHeroNames);
 module.exports = {
   all : marvelHeroNames,
   random : random
