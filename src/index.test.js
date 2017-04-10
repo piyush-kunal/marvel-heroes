@@ -20,5 +20,12 @@ describe('marvel-heroes', function() {
       var randomItem = marvel.random();
       expect(marvel.all).to.include(randomItem);
     });
+    it('it should return an array of random items if passed', function() {
+      var randomItems = marvel.random(3);
+      expect(randomItems).to.have.length(3);
+      randomItems.forEach(function(item) {
+        expect(marvel.all).to.include(item);
+      });
+    });
   });
 });
